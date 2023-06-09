@@ -1,0 +1,10 @@
+/*
+cat /Users/alvaro.arizu/.ssh/id_rsa.pub 
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDbR23xmREXsP90aop5ttU1zcx7hX0PcnVo54Qvdc7kcfItHeS71CIGPlNqiWfRdieF/12zEcju4IfxJwY8hIrASlxunh2BQGDSKtkWm7u4G6VDNs+OIPrHqG2asbVdKVNclr6XtF8G/RpktOHcDs38aLOTcNFALJ2bktRdDTKsBkzpV0xRh7zO4dOjPjWlaTqnEoFyzt/CfjFEFYEQ4VKtVukIw6HIsTirffFKqIGVHRyy51r33oIRu1PYbv3Vdh20gsAXDnShPwopa4TWdM/R+3mTeGDyQADiCuVdgyoXzado6voeUsmO5L2pSvTBp1Ea5xK3Mh/NUA6BNg2OXFauRPIJExdJ/qc9SF5VLvu1txQ9+fYg/hE3gRwvUA8Nv0qUF4luEGHWed6EgwqlGM0wLqg9s03V0yP90tt1UZ3asXm6q5NJOn6nJuCzD36j8x56FGI8T9JkL9P7yXVgTNlzAesH9Pwl6tMyMGeE20itKcioVQkd2AbXSx8JLx93ep8= alvaro.arizu@MBP-de-Alvaro.fibertel.com.ar
+
+ls -1 ~/.ssh/
+
+ssh-keygen
+
+*/
