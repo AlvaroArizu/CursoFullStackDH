@@ -1,0 +1,121 @@
+body {
+    background-color: pink;
+    font-family: serif;
+}
+
+.oculto{
+    display: none;
+}
+
+.contendor01{
+    width: 100%;
+    padding: 20px;
+    border: solid black 5px;
+    background-color: saddlebrown;
+    box-sizing: border-box;
+}
+
+.contenedor02{
+    width: 100vw;
+    padding: 20px;
+    border: solid blue 5px;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.contenedor03{
+    width: 100vw;
+    padding: 20px;
+    border: solid firebrick 5px;
+    background-color: teal;
+    box-sizing: border-box;
+}
+
+.contenedor04{
+    width: 100%;
+    padding: 20px;
+    border: solid rebeccapurple 5px;
+    background-color: hotpink;
+    box-sizing: border-box;
+}
+
+.contenedor05{
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    border: solid royalblue 5px;
+    background-color: yellowgreen;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+@media(min-width: 570px){
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+@media(min-width: 900px){
+    body {
+        background-color: royalblue;
+        color: gold;
+    }
+
+    .oculto{
+        display: block;
+    }
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+} 
+/*En GOOGLE para ver tipografias: font.google*/
+h2{
+    font-family: 'Moon Dance', cursive;
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.parrafo-destacado {
+    color: rebeccapurple;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+strong{
+    color:deeppink;
+    
+}
+p strong{ /*es descendente*/
+    color:violet;
+    background-color:maroon;
+    font-style: italic;
+}
+
+@media(min-width: 576px){
+    .contendor01,
+    .contenedor02{
+        width: 70%;
+        margin:auto;
+        background-color: aqua;
+        color: darkslategrey;
+    }
+}
+/*LAS MEDIA QUIERI SE ESTABLECEN EN:
+    -576
+    -768
+    -992
+    -1200
+*/

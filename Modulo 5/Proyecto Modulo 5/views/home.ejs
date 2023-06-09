@@ -1,0 +1,17 @@
+<%- include('./partials/head.ejs') %>
+
+<h1>Lista de peliculas</h1>
+<%= "Hola desde EJS" %>
+<ul>
+    <% lista.forEach(peliculas => { %>
+        <% if (peliculas.anio > 2002) { %>
+            <li>
+                <a href="/peliculas/"<%= peliculas.id%>>
+                    <%= peliculas.title%>
+                </a>
+            </li>
+        <% } %>
+    <% }) %>
+</ul>
+
+<%- include('./partials/footer.ejs') %>

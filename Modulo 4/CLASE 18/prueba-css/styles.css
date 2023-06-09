@@ -1,0 +1,43 @@
+*{
+    font-size: 48px;
+    color: black;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+body div.container article {
+    background-color: chartreuse;
+}
+h3{
+    font-size: 16px !important;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.article {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.article1 {
+    background-color: red;
+
+}
+
+.article2 {
+    background-color: aqua;
+}
+
+.article3 {
+    background-color: blue;
+}
+
+h3{
+    font-size: 72px;
+}
